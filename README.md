@@ -71,6 +71,8 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+![Screenshot 2024-11-25 114640](https://github.com/user-attachments/assets/05892288-2d87-41b0-a4f0-7876217d8246)
+
 
 ### Fig 3:Invoke the Cadence Environment
 
@@ -83,12 +85,17 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot 2024-11-25 115012](https://github.com/user-attachments/assets/6f936790-612b-4f3b-8c92-9462cae28c31)
+
 
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot 2024-11-25 115117](https://github.com/user-attachments/assets/2107adca-a2c0-4c72-926a-c45f49dc0880)
+
+
 
 ### Fig 5:cds.lib file Creation
 
@@ -100,7 +107,7 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
+![Screenshot 2024-11-25 115201](https://github.com/user-attachments/assets/3b4d0bc7-b9a7-4730-b0e7-61809afa0f36)
 
 ### Fig 6: Selection of Don’t include any libraries
 
@@ -111,6 +118,8 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot 2024-11-25 115234](https://github.com/user-attachments/assets/4972a67a-2a8a-477e-94e0-c20c217a0208)
+
 
 ### Fig 7: Nclaunch Window
 
@@ -130,6 +139,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![Screenshot 2024-11-25 115326](https://github.com/user-attachments/assets/4e454e1c-5177-4e40-89a8-b34bb4b71c7c)
+
 
 ### Fig 8: Compiled database in worklib
 
@@ -153,6 +164,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 5.	It also establishes net connectivity and prepares all of this for simulation
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
+![Screenshot 2024-11-25 115353](https://github.com/user-attachments/assets/8ac644e8-6e9c-4cc2-90c0-c094247c89a9)
+
 
 ### Fig 9: Elaboration Launch Option
 
@@ -166,11 +179,16 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	Steps for simulation – Run the simulation command with simulator options
 
+
 ### Fig 10: Design Browser window for simulation
+![Screenshot 2024-11-25 115426](https://github.com/user-attachments/assets/6d2603b2-75ac-4c28-8693-33f81234c632)
+
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![Screenshot 2024-11-25 115518](https://github.com/user-attachments/assets/63d31d4f-d902-48df-9561-5ca8f80b86ff)
 
 ### Fig 12: Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/d823e9bf-7e05-4826-9c67-a413e482c42c)
 
 ### Result:
 
